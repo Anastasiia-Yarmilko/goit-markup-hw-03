@@ -159,6 +159,7 @@ img {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
+  border-radius: 4px;
   color: var(--title-dark-background-color);
   background: var(--accent-color);
   cursor: pointer;
@@ -181,7 +182,7 @@ img {
 
 .benefits-section {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 47px;
 }
 
 .benefits-list-item-img {
@@ -221,7 +222,7 @@ img {
 }
 
 .operations {
-  padding-top: 94px;
+  padding-top: 47px;
   padding-bottom: 94px;
 }
 
@@ -234,14 +235,13 @@ img {
   margin-right: 30px;
 }
 
-.operations-list-item-img {
-  margin-bottom: 10px;
-}
-
 .operations .subtitle {
   text-align: center;
   color: var(--title-dark-background-color);
   background-color: var(--text-light-background-color);
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin-bottom: 10px;
 }
 
 /* TEAM */
@@ -292,10 +292,19 @@ img {
 .team-address-list {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 24px;
 }
 
-.team-address-list:not(:last-child) {
+.team-address-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+}
+
+.team-address-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -323,6 +332,11 @@ img {
   border-radius: 4px;
 }
 
+.clients-list-item-link:hover,
+.clients-list-item-link:focus {
+  border: 1px solid var(--accent-color);
+}
+
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -335,14 +349,23 @@ img {
 
 .footer .container {
   display: flex;
-  align-items: center;
-  padding-top: 72px;
+  align-items: baseline;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .footer-social-list {
   display: flex;
   align-items: center;
+}
+
+.footer-social-list-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  margin-right: 10px;
 }
 
 .footer-street-address,
@@ -369,7 +392,21 @@ img {
 }
 
 .footer .logo {
+  display: block;
   color: var(--text-dark-background-color);
+  margin-bottom: 20px;
+}
+
+.footer-address-list-item {
+  margin-bottom: 9px;
+}
+
+.footer-container .subtitle {
+  margin-bottom: 20px;
+}
+
+.footer-address-container {
+  margin-right: 69px;
 }
 
 /* PORTFOLIO */
