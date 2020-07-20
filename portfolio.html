@@ -15,38 +15,42 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <nav class="navigation">
-        <a class="logo link" href="./index.html" lang="en"
-          ><span class="logo-blue-word link">Web</span> Studio</a
-        >
-        <ul class="navigation-list list">
-          <li class="navigation-list-item">
-            <a class="navigation-list-link link" href="./index.html">Студия</a>
-          </li>
-          <li class="navigation-list-item">
-            <a class="navigation-list-link link" href="./portfolio.html"
-              >Портфолио</a
-            >
-          </li>
-          <li class="navigation-list-item">
-            <a class="navigation-list-link link" href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-contacts">
-        <ul class="header-contacts-list list">
-          <li class="header-contacts-list-item">
-            <a class="header-mail link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-contacts-list-item">
-            <a class="header-phone link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <nav class="navigation">
+          <a class="logo link" href="./index.html" lang="en"
+            ><span class="logo-blue-word link">Web</span> Studio</a
+          >
+          <ul class="navigation-list list">
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-contacts">
+          <ul class="header-contacts-list list">
+            <li class="header-contacts-list-item">
+              <a class="header-mail link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-contacts-list-item">
+              <a class="header-phone link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!-- Секция main -->
     <main class="portfolio-main">
@@ -169,62 +173,84 @@
     </main>
     <!-- Подвал -->
     <footer class="footer">
-      <div class="footer-address-container">
-        <a class="logo link" href="./index.html" lang="en">
-          <span class="logo-blue-word link">Web</span> Studio</a
-        >
-        <address class="footer-address">
-          <ul class="footer-address-list list">
-            <li class="footer-address-list-item">
-              <a class="footer-street-address link" href=""
-                >г. Киев, пр-т Леси Украинки, 26</a
+      <div class="container">
+        <div class="footer-address-container">
+          <a class="logo link" href="./index.html" lang="en">
+            <span class="logo-blue-word link">Web</span> Studio</a
+          >
+          <address class="footer-address">
+            <ul class="footer-address-list list">
+              <li class="footer-address-list-item">
+                <a class="footer-street-address link" href=""
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-address-list-item">
+                <a class="footer-mail link" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-address-list-item">
+                <a class="footer-phone link" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-container">
+          <p class="subtitle">присоединяйтесь</p>
+          <ul class="footer-social-list list">
+            <li class="footer-social-list-items">
+              <a
+                class="footer-social-link link"
+                href=""
+                aria-label="иконка инстаграма"
               >
+                <img
+                  src="./images/icons/icons-dark-bg/instagram 2dark-background-icons.svg"
+                  alt="Иконка инстаграма"
+                />
+              </a>
             </li>
-            <li class="footer-address-list-item">
-              <a class="footer-mail link" href="mailto:info@example.com"
-                >info@example.com</a
+            <li class="footer-social-list-items">
+              <a
+                class="footer-social-link link"
+                href=""
+                aria-label="иконка твиттера"
               >
+                <img
+                  src="./images/icons/icons-dark-bg/twitter 1dark-background-icons.svg"
+                  alt="Иконка твиттера"
+                />
+              </a>
             </li>
-            <li class="footer-address-list-item">
-              <a class="footer-phone link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
+            <li class="footer-social-list-items">
+              <a
+                class="footer-social-link link"
+                href=""
+                aria-label="иконка фейсбука"
               >
+                <img
+                  src="./images/icons/icons-dark-bg/facebook 1dark-background-icons.svg"
+                  alt="Иконка фейсбука"
+                />
+              </a>
+            </li>
+            <li class="footer-social-list-items">
+              <a
+                class="footer-social-link link"
+                href=""
+                aria-label="иконка линкедина"
+              >
+                <img
+                  src="./images/icons/icons-dark-bg/linkedin 1dark-background-icons.svg"
+                  alt="Иконка линкедина"
+                />
+              </a>
             </li>
           </ul>
-        </address>
-      </div>
-      <div class="footer-container">
-        <p class="subtitle">присоединяйтесь</p>
-        <ul>
-          <li>
-            <a
-              class="footer-social-link link"
-              href=""
-              aria-label="иконка инстаграма"
-            ></a>
-          </li>
-          <li>
-            <a
-              class="footer-social-link link"
-              href=""
-              aria-label="иконка твиттера"
-            ></a>
-          </li>
-          <li>
-            <a
-              class="footer-social-link link"
-              href=""
-              aria-label="иконка фейсбука"
-            ></a>
-          </li>
-          <li>
-            <a
-              class="footer-social-link link"
-              href=""
-              aria-label="иконка линкедина"
-            ></a>
-          </li>
-        </ul>
+        </div>
       </div>
     </footer>
   </body>
