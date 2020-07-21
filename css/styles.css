@@ -119,6 +119,10 @@ img {
   letter-spacing: 0.02em;
 }
 
+.header-contacts .link {
+  color: var(--text-light-background-color);
+}
+
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .header-mail:hover,
@@ -195,6 +199,8 @@ img {
   padding-bottom: 25px;
   padding-left: 100px;
   padding-right: 100px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 .benefits-list-item .subtitle {
@@ -411,8 +417,12 @@ img {
 
 /* PORTFOLIO */
 .portfolio-buttons {
-  padding-top: 93px;
   padding-bottom: 50px;
+}
+
+.portfolio-main {
+  padding-top: 93px;
+  padding-bottom: 94px;
 }
 
 .btn-list {
